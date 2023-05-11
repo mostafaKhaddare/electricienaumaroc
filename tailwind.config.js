@@ -14,5 +14,17 @@ module.exports = {
       },
     },
   },
+  keyframes : {
+    "bouncing" : {
+      "0%" : {transform :'translateY(0)'},
+      "20%" : {transform :'translateY(0)'},
+      "50%" : {transform :'translateY(0)'},
+      "80%" : {transform :'translateY(0)'},
+      "100%" : {transform :'translateY(0)'},
+      "40%" : {transform :'translateY(-15px)'},
+      "60%" : {transform :'translateY(-15px)'},
+    }
+
+  },
   plugins: [],
 }
